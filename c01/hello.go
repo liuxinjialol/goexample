@@ -23,4 +23,14 @@ func main() {
 	fmt.Println(str)
 	fmt.Println(&str)
 	fmt.Println(LENGTH)
+
+
+
+	var x int = 10
+	if (x < 20) {
+		fmt.Printf("x 小于 20\n" )
+	}
+	fmt.Printf("x 的值为 : %d\n", x)
+
+
 }
