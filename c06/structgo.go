@@ -9,6 +9,7 @@ type Books struct {
 }
 
 func main() {
+
 	var book1 Books
 	book1.author = "tom"
 	book1.id = 123
