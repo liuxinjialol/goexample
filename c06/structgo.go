@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-type Books struct {
+type books struct {
 	title  string
 	id     int
 	author string
@@ -10,7 +10,7 @@ type Books struct {
 
 func main() {
 
-	var book1 Books
+	var book1 books
 	book1.author = "tom"
 	book1.id = 123
 	book1.title = "cars"
