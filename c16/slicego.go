@@ -27,8 +27,18 @@ func main(){
 
 
 	s := make([]byte,5)
-fmt.Println(s)
-twoD := make([][]int,3)
-fmt.Println(twoD)
-fmt.Println()
+	fmt.Println(s)
+	twoD := make([][]int,3)
+	fmt.Println(twoD)
+	fmt.Println()
+
+	for range demo{
+		fmt.Println("===");
+	}
+
+	var times[5][0] int
+	for range times{
+		fmt.Println("+++");
+	}
+
 }
